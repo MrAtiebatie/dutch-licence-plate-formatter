@@ -1,0 +1,25 @@
+{
+    "name": "juukie/dutch-licence-plate-formatter",
+    "type": "project",
+    "description": "Formatter for Dutch licence plates.",
+    "keywords": [
+        "kenteken",
+        "licence",
+        "plate",
+        "formatter",
+        "Dutch",
+        "Nederlands"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Juukie\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    }
+}
